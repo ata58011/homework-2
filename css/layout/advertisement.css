@@ -1,0 +1,44 @@
+/* Advertisement */
+
+.advirtise .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  background-color: #fff;
+}
+.advirtise .container img {
+  width: 480px;
+}
+.info-taco h2,
+h4,
+button {
+  padding: 8px 0;
+}
+.btn-2 {
+  padding: 10px 30px;
+  display: flex;
+  column-gap: 8px;
+  background-color: #ffc300;
+  border: none;
+}
+
+@media screen and (max-width: 900px) {
+  .advirtise .container img {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .advirtise .container {
+    display: block;
+  }
+
+  .info-taco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+}

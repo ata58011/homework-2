@@ -1,0 +1,17 @@
+/* Base Css */
+
+@import url(/css/base/reset.css);
+@import url(/css/base/responsive.css);
+
+/* Layout Css */
+
+@import url(/css/layout/advertisement.css);
+@import url(/css/layout/border.css);
+
+@import url(/css/layout/catalog-1.css);
+@import url(/css/layout/catalog-2.css);
+
+@import url(/css/layout/header.css);
+
+@import url(/css/layout/images.css);
+@import url(/css/layout/offer.css);

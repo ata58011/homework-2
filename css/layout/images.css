@@ -1,0 +1,24 @@
+/* Images  Css  */
+
+.images .container {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  gap: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .images .container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .images .container {
+    display: block;
+  }
+  .images .container img {
+    margin: 5px 0;
+  }
+}

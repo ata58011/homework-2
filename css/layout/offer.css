@@ -1,0 +1,36 @@
+/* Offer Css */
+
+.offer .container {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  column-gap: 20px;
+}
+
+.taco-prices {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 10px;
+}
+.taco-prices > div {
+  background-color: #ffc300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.taco-prices > div h1 {
+  font-size: 4rem;
+}
+
+.taco-prices > div h5 {
+  font-size: 1.3rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .offer .container {
+    display: block;
+  }}

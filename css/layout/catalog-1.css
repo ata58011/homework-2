@@ -1,0 +1,28 @@
+/* Catalog Css */
+.catalogs .container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 8px;
+}
+
+.container .box {
+  padding: 15px 40px;
+  background-color: #ffc300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1080px) {
+  .catalogs .container .box {
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .catalogs {
+    display: none;
+  }
+}
